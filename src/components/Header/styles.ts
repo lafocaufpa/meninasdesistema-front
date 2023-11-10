@@ -4,12 +4,13 @@ export const HeaderContainer = styled.header`
     width: 100%;
     height: 40px;
     line-height: 40px;
+    background-color: #56279B;
+
 
     .nav {
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        padding: 0px 30px;
+        justify-content: end;
     }
 
     .nav_menu
@@ -18,7 +19,8 @@ export const HeaderContainer = styled.header`
         align-items: center;
 
         li a {
-            margin-left: 20px;
+            margin-left: 100px;
+            color: white;
         }
     }
 `

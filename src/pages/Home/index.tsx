@@ -1,5 +1,11 @@
+import { CardHome } from "../../components/CardHome";
+import { Container } from "../../styles/Global.styles";
+
 export function Home () {
     return (
-        <h1>Página Home</h1>
+        <Container>
+            <CardHome title="Notícias"/>
+            <CardHome title="Eventos"/>
+        </Container>
     )
 }
