@@ -1,11 +1,9 @@
-import { CardHome } from "../../components/CardHome";
 import { Container } from "../../styles/Global.styles";
 
 export function Home () {
     return (
         <Container>
-            <CardHome title="Notícias"/>
-            <CardHome title="Eventos"/>
+            <h2>Página home</h2>
         </Container>
     )
 }
