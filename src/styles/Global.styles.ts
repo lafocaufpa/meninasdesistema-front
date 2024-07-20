@@ -1,4 +1,5 @@
 import styled, { createGlobalStyle } from "styled-components";
+
 import { theme } from "./Theme.styles";
 
 export const GlobalStyles = createGlobalStyle`
@@ -87,11 +88,11 @@ a {
     text-decoration: none;
 }
 
-`
+`;
 
 export const Container = styled.div`
-    width: 100%;
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 0 80px;
-`
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 80px;
+`;

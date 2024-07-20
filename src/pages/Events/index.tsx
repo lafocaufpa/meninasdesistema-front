@@ -1,5 +1,3 @@
 export function Events() {
-    return (
-        <h1>Página de Eventos</h1>
-    )
+  return <h1>Página de Eventos</h1>;
 }
