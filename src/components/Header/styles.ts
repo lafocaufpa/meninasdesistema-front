@@ -6,7 +6,7 @@ export const HeaderComponent = styled.header`
 `;
 
 export const Nav = styled.nav`
-  height: 60px;
+  height: 80px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -18,11 +18,11 @@ export const Nav = styled.nav`
     gap: 8px;
   }
   .nav_logo .nav_logo_img img {
-    width: 34.04px;
-    height: 34.04px;
+    width: 60px;
+    height: 60px;
   }
-  .nav_logo .nav_logo_text {
-    font-size: var(--smaller-font-size-logo);
+  .nav_logo .nav_logo_text p {
+    font-size: var(--small-font-size);
     font-weight: var(--font-black);
     color: var(--logo-color-name);
     text-align: center;
@@ -35,7 +35,7 @@ export const Nav = styled.nav`
     gap: 20px;
   }
   .nav_menu .nav_item {
-    font-size: var(--smaller-font-size-description);
+    font-size: var(--p-font-size);
     font-weight: var(--font-medium);
     color: var(--primary-color);
   }

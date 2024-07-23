@@ -22,16 +22,22 @@ export const GlobalStyles = createGlobalStyle`
 
     --logo-color-name: ${theme.logo.name};
 
-    --bg-container-about: ${theme.colors.primary.light};
+    --bg-container-mission: ${theme.colors.primary.light};
 
     --text-color: ${theme.typography.main};
     --text-color-light: ${theme.typography.light};
+
+    --text-color-title-card: #3A3A3A;
+    --text-color-description-card: #747474;
+    --color-border-card: #CBBCE0;
 
     --title-color-white: var(--white-color);
     --title-color-primary: var(--primary-color);
     --title-color-black: var(--text-color);
 
-    --body-color: var(--white-color);
+    --body-color: #F7F7F7;
+
+    --bg-color-button-action: rgba(243, 243, 243, 0.80);
 
     --bg-color-gradient-top: linear-gradient(90deg, var(--first-color-gradient-top) 28%, var(--second-color-gradient-top) 100%);
     --bg-color-gradient-bottom: linear-gradient(90deg,  var(--first-color-gradient-bottom) 0%, var(--second-color-gradient-bottom) 100%);
@@ -40,16 +46,14 @@ export const GlobalStyles = createGlobalStyle`
     --body-font: 'Roboto', sans-serif;
     --standard-font-size: 16px;
 
-    --big-font-size-logo: 50px;
-    --small-font-size-logo: 38px;
-    --smaller-font-size-logo: 10px;
-
-    --title-font-size: 40px;
-    --subtitle-font-size: 28px;
-
-    --normal-font-size-description: 22px;
-    --small-font-size-description: 20px;
-    --smaller-font-size-description: 18px;
+    --h1-font-size: 44px;
+    --h2-font-size: 30px;
+    --h3-font-size: 28px;
+    --h4-font-size: 20px;
+    --h5-font-size: 18px;
+    --p-font-size: 16px;
+    --small-font-size: 14px;
+    --smaller-font-size: 12px;
 
     /*========= Line height ==========*/
     --normal-line-height: 32px;
@@ -78,6 +82,26 @@ export const GlobalStyles = createGlobalStyle`
 
 html, body {
     height: 100%;
+    background-color: var(--body-color);
+}
+
+h1 {
+    font-size: var(--h1-font-size);
+}
+h2 {
+    font-size: var(--h2-font-size);
+}
+h3 {
+    font-size: var(--h3-font-size);
+}
+h4 {
+    font-size: var(--h4-font-size);
+}
+h5 {
+    font-size: var(--h5-font-size);
+}
+p {
+    font-size: var(--p-font-size);
 }
 
 li {
@@ -94,5 +118,5 @@ export const Container = styled.div`
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
-  padding: 0 80px;
+  padding: 0 30px;
 `;
