@@ -34,7 +34,7 @@ export const Nav = styled.nav`
     align-items: center;
     gap: 20px;
   }
-  .nav_menu .nav_item {
+  .nav_menu .nav_item a {
     font-size: var(--p-font-size);
     font-weight: var(--font-medium);
     color: var(--primary-color);

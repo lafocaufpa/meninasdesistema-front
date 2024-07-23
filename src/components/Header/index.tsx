@@ -20,19 +20,19 @@ export function Header() {
 
           <ul className="nav_menu">
             <li className="nav_item">
-              <a href="#">Página Inicial</a>
+              <a href="/">Página Inicial</a>
             </li>
             <li className="nav_item">
-              <a href="#">Notícias</a>
+              <a href="/news">Notícias</a>
             </li>
             <li className="nav_item">
-              <a href="#">Eventos</a>
+              <a href="/events">Eventos</a>
             </li>
             <li className="nav_item">
-              <a href="#">Membros</a>
+              <a href="/members">Membros</a>
             </li>
             <li className="nav_item">
-              <a href="#">Sobre</a>
+              <a href="/about">Sobre</a>
             </li>
           </ul>
         </Nav>
