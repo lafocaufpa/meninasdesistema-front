@@ -1,6 +1,6 @@
 import IconNext from "../../assets/icons/icon-navigate-next.svg";
 import IconShare from "../../assets/icons/icon-share.svg";
-import Imagetest from "../../assets/img/image.png";
+import Imagetest from "../../assets/img/img-events.png";
 import { ContainerCardNews } from "./styles";
 
 type CardNewsProps = {
