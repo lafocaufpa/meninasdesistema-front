@@ -81,6 +81,7 @@ export const Events = styled.section`
     gap: 42px;
     overflow: hidden;
     margin: 0 auto;
+    margin-bottom: 42px;
     z-index: 10;
   }
   .container_cards .button_action {
@@ -103,7 +104,6 @@ export const Events = styled.section`
   }
   .event_button {
     text-align: center;
-    margin-top: 42px;
   }
   .event_button .button {
     width: 152px;
