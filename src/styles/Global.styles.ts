@@ -37,6 +37,7 @@ export const GlobalStyles = createGlobalStyle`
 
     --body-color: #F7F7F7;
 
+    --bg-color-card-members: ${theme.colors.primary.lightHover};
     --bg-color-button-action: rgba(243, 243, 243, 0.80);
 
     --bg-color-gradient-top: linear-gradient(90deg, var(--first-color-gradient-top) 28%, var(--second-color-gradient-top) 100%);
