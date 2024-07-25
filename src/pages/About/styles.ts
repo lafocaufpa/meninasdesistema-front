@@ -45,6 +45,7 @@ export const ContainerGoals = styled.section`
   .goals_cards {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 64px;
   }
   .goals_cards .card {
