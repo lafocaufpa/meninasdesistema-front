@@ -12,6 +12,7 @@ export const GlobalStyles = createGlobalStyle`
     --white-color: ${theme.colors.surface.white};
 
     --primary-color: ${theme.colors.primary.main};
+    --primary-color-light-hover: ${theme.colors.primary.lightHover};
     --secondary-color: ${theme.colors.secondary.main};
 
     --first-color-gradient-top: ${theme.gradientTop.firtsColor};

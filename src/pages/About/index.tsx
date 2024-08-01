@@ -1,7 +1,7 @@
 import IconDevelop from "../../assets/icons/icon-develop.svg";
 import IconBefore from "../../assets/icons/icon-navigate-before.svg";
 import IconNext from "../../assets/icons/icon-navigate-next.svg";
-import ImageAbout from "../../assets/img/image.png";
+import ImageAbout from "../../assets/img/img-about.png";
 import { Banner } from "../../components/Banner";
 import { Card } from "../../components/Card";
 import { Container } from "../../styles/Global.styles";
