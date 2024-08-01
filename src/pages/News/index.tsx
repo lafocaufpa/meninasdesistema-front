@@ -1,12 +1,11 @@
+import { Banner } from "../../components/Banner";
 import { CardNews } from "../../components/CardNews";
-import { BannerNews, ContainerNews } from "./styles";
+import { ContainerNews } from "./styles";
 
 export function News() {
   return (
     <>
-      <BannerNews>
-        <h2>Notícias | Projeto Meninas de Sistemas</h2>
-      </BannerNews>
+      <Banner text="Notícias | Projeto Meninas de Sistemas" />
       <ContainerNews>
         <div className="container_news_title">
           <h3>Notícias mais recentes</h3>

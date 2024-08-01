@@ -2,18 +2,16 @@ import IconDevelop from "../../assets/icons/icon-develop.svg";
 import IconBefore from "../../assets/icons/icon-navigate-before.svg";
 import IconNext from "../../assets/icons/icon-navigate-next.svg";
 import ImageAbout from "../../assets/img/image.png";
+import { Banner } from "../../components/Banner";
 import { Card } from "../../components/Card";
 import { Container } from "../../styles/Global.styles";
 import { Events } from "../Home/styles";
-import { BannerNews } from "../News/styles";
 import { ContainerAbout, ContainerGoals } from "./styles";
 
 export function About() {
   return (
     <>
-      <BannerNews>
-        <h2>Sobre o Projeto Meninas de Sistemas</h2>
-      </BannerNews>
+      <Banner text="Sobre o Projeto Meninas de Sistemas" />
       <Container>
         <ContainerAbout>
           <div className="about_us">

@@ -1,12 +1,11 @@
+import { Banner } from "../../components/Banner";
 import { CardNews } from "../../components/CardNews";
-import { BannerNews, ContainerNews } from "../News/styles";
+import { ContainerNews } from "../News/styles";
 
 export function Events() {
   return (
     <>
-      <BannerNews>
-        <h2>Eventos | Projeto Meninas de Sistemas</h2>
-      </BannerNews>
+      <Banner text="Eventos | Projeto Meninas de Sistemas" />
       <ContainerNews>
         <div className="container_news_title">
           <h3>Próximos Eventos</h3>

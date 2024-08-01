@@ -1,13 +1,11 @@
+import { Banner } from "../../components/Banner";
 import { CardMember } from "../../components/CardMember";
-import { BannerNews } from "../News/styles";
 import { ContainerMembers } from "./styles";
 
 export function Members() {
   return (
     <>
-      <BannerNews>
-        <h2>Membros do Projeto Meninas de Sistemas</h2>
-      </BannerNews>
+      <Banner text="Membros do Projeto Meninas de Sistemas" />
       <ContainerMembers>
         <div className="members_title">
           <h3>Conheça nossa equipe</h3>
