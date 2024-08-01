@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 
 import { Layout } from "../pages";
 import { About } from "../pages/About";
+import { Event } from "../pages/Event";
 import { Events } from "../pages/Events";
 import { Home } from "../pages/Home";
 import { Members } from "../pages/Members";
@@ -36,6 +37,10 @@ export const router = createBrowserRouter([
       {
         path: "/exemplo-news",
         element: <OnNews />,
+      },
+      {
+        path: "/exemplo-event",
+        element: <Event />,
       },
     ],
   },
