@@ -34,7 +34,7 @@ export const ContainerInfo = styled.div`
   }
   .container_date,
   .container_local {
-    color: #333333;
+    color: var(--text-color);
   }
 `;
 
@@ -65,12 +65,12 @@ export const ContainerContent = styled.div`
     margin-bottom: 10px;
   }
   .container_data .hour_date h5 {
-    color: #333333;
+    color: var(--text-color);
     font-weight: var(--font-regular);
     line-height: var(--normal-line-height);
   }
   .container_data .about h5 {
-    color: #333333;
+    color: var(--text-color);
     font-weight: var(--font-regular);
     line-height: var(--normal-line-height);
   }
@@ -78,7 +78,7 @@ export const ContainerContent = styled.div`
     margin-bottom: 52px;
   }
   .container_data .container_inscrever a {
-    color: #333333;
+    color: var(--text-color);
     text-decoration: underline;
   }
 `;
