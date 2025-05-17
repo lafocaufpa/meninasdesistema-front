@@ -5,24 +5,31 @@ export const HeaderComponent = styled.header`
   background-color: var(--white-color);
 `;
 
+// ::::::: MODELO 1 ::::::::
 export const Nav = styled.nav`
-  height: 80px;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-left: 7.5px;
+  padding-right: 36px;
 
   // ======= CONTAINER LOGO ======
   .nav_logo {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 6.71px;
+  }
+  .nav_logo .nav_logo_img {
+    display: flex;
+    align-items: center;
   }
   .nav_logo .nav_logo_img img {
-    width: 60px;
-    height: 60px;
+    width: 34px;
+    height: 34px;
   }
   .nav_logo .nav_logo_text p {
-    font-size: var(--small-font-size);
+    font-size: 9.99px;
     font-weight: var(--font-black);
     color: var(--logo-color-name);
     text-align: center;
@@ -32,10 +39,10 @@ export const Nav = styled.nav`
   .nav_menu {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 45.92px;
   }
   .nav_menu .nav_item a {
-    font-size: var(--p-font-size);
+    font-size: 18px;
     font-weight: var(--font-medium);
     color: var(--primary-color);
   }

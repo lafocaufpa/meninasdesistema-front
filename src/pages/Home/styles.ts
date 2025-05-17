@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+// :::::::::::: MODELO 1 ::::::::::
 export const Banner = styled.section`
   display: flex;
   align-items: center;
@@ -16,13 +17,14 @@ export const Banner = styled.section`
     color: var(--white-color);
   }
   .container_banner .banner_texts .banner_texts_title h1 {
-    font-weight: var(--font-bold);
+    font-size: 62px;
     margin-bottom: 10px;
   }
   .container_banner .banner_texts .banner_texts_subtitle p {
-    width: 500px;
+    width: 739px;
+    font-size: 18px;
     font-weight: var(--font-regular);
-    line-height: var(--small-line-height);
+    line-height: 32px;
     margin-bottom: 120px;
   }
   .container_banner .banner_texts .banner_texts_italic h4 {
@@ -189,13 +191,15 @@ export const SectionGradient = styled.section`
   margin-top: 80px;
 
   h2 {
+    font-size: 40px; // COM FONT-SIZE DO LAYOUT
     font-weight: var(--font-bold);
     margin-bottom: 42px;
   }
 
   h4 {
     width: 100%;
-    max-width: 950px;
+    max-width: 1060px;
+    font-size: 22px; // COM FONT-SIZE DO LAYOUT
     font-weight: var(--font-regular);
     text-align: center;
     line-height: var(--normal-line-height);

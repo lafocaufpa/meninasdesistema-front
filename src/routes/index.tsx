@@ -35,11 +35,11 @@ export const router = createBrowserRouter([
         element: <About />,
       },
       {
-        path: "/exemplo-news",
+        path: "/example-news",
         element: <OnNews />,
       },
       {
-        path: "/exemplo-event",
+        path: "/example-event",
         element: <Event />,
       },
     ],

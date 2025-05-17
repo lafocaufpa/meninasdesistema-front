@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+// ::::::::::::: MODELO 1 :::::::::::
 export const BoxCard = styled.div`
   width: 100%;
   max-width: 398px;
@@ -45,6 +46,7 @@ export const BoxCard = styled.div`
     padding: 0px 18px;
   }
   .card_title_description h4 {
+    font-size: 22px; // FONT-SIZE DO LAYOUT DE 22PX
     text-align: left;
     color: var(--text-color-title-card);
     margin-top: 18px;
